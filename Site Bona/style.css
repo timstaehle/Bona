@@ -1,0 +1,191 @@
+body {
+  margin: 0px;
+  color: #252525;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+h1, h2, {
+  color: #252525;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3{
+  color: #037A07;
+  text-shadow: 1px 1px 2px black;
+}
+
+h4{
+  font-size: 45px;
+  font-family: Helvetica;
+  text-align: center;
+  color: #037a03;
+  text-shadow: 1px 1px 3px black;
+}
+
+p1{
+  font-size: 25px;
+  text-shadow: 2px 2px 4px black;
+}
+
+a {
+  text-decoration: none;
+  color: #01A1FD;
+}
+
+a:hover {
+  color: #e84089;
+}
+
+.button-blue {
+  background-color: #0278AE;
+}
+
+#banner{
+  text-align: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("images/banner.jpg");
+  background-size: cover;
+  padding: 150px 30px;;
+}
+
+#banner h1, #banner h2 {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 30px;
+}
+
+#banner h1 {
+  font-size: 50px;
+}
+
+#banner h2 {
+  font-size: 25px;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer {
+  padding: 30px;
+  color: rgb(226,226,226);
+}
+
+#footer a {
+  color: white;
+  font-size: 40px;
+}
+#footer a:hover {
+  color: #04DEAD;
+}
+
+.section h1, .section h3 {
+  margin-bottom: 50px;
+}
+
+.section-meals {
+  padding: 100px 10px;
+}
+
+.section-epices {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("images/epices.jpg");
+}
+
+.section-meals h1 {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.section-meals h2 {
+  font-size: 20px;
+}
+
+.section-meals p {
+  font-size: 14px;
+}
+
+.food-picture {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.mynavbar {
+  background-color: white;
+  height: 70px;
+  border-bottom: 1px solid grey;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+}
+
+
+.logo {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.navbar-links {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: grey;
+  margin-right: 20px;
+}
+
+.navbar-links a:hover {
+  color: red;
+}
+
+.news{
+background-color: #EDCC87;
+color: #037A07;
+padding: 50px;
+
+}
+
+.hamburger {
+  margin-right: 20px;
+  color: grey;
+}
+
+.hamburger:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.banner2{
+  width: 100%;
+  height: 60px;
+  background-color: #edcc87;
+}
+
+#visa {
+height: 48px;
+width: 200px;
+}
